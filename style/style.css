@@ -1,0 +1,71 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin: auto;
+}
+nav button.resume{
+    background: none;
+    padding:0px 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height:35px;
+    cursor:pointer;
+}
+.banner-section-container{
+    max-width: 1440;
+    height: 650px;
+    border: 2px dotted gray;
+    background-image: url(../B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+    image-rendering: url(../B10A1-Challenge-Begins-main/assets/Group.png);
+}
+.contact{
+    padding-top:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    margin:auto;
+}
+.contact button.contactMe{
+    background-color: black;
+    color:white;
+    padding:10px 19px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+.contact .ReasonToChooseWeb{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    font-size: 14px;
+}
+.my-inspiration{
+    text-align: center;
+}
+.target{
+    text-align: center;
+    width:80%;
+    margin:auto;
+    height: 360px;
+}
+.target .targetedList{
+    display:flex;
+    justify-items:center;
+    align-items: center;
+}
+.target .targetedList #individual{
+    border: 1px solid red;
+}
